@@ -10,7 +10,7 @@ namespace Pathoschild.Stardew.TractorMod.Framework.Config
         public bool ClearFruitTreeSaplings { get; set; }
 
         /// <summary>Whether to clear fully-grown fruit trees.</summary>
-        public bool CutGrownFruitTrees { get; set; }
+        public bool CutGrownFruitTrees { get; set; } = true
 
         /// <summary>Whether to clear non-fruit tree seeds.</summary>
         public bool ClearTreeSeeds { get; set; }
@@ -19,7 +19,8 @@ namespace Pathoschild.Stardew.TractorMod.Framework.Config
         public bool ClearTreeSaplings { get; set; }
 
         /// <summary>Whether to clear full-grown non-fruit trees.</summary>
-        public bool CutGrownTrees { get; set; }
+        public bool CutGrownTrees { get; set; } = true
+
 
         /// <summary>Whether to cut non-fruit trees that have a tapper.</summary>
         public bool CutTappedTrees { get; set; }
